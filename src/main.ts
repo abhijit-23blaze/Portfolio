@@ -414,7 +414,7 @@ const initEventListeners = () => {
     USERINPUT.focus();
   });
 
-  console.log(`%cPassword: ${command.password}`, "color: red; font-size: 20px;");
+  // console.log(`%cPassword: ${command.password}`, "color: red; font-size: 20px;");
 }
 
 initEventListeners();
