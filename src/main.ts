@@ -33,7 +33,15 @@ const PROMPT = document.getElementById("prompt");
 const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear", "hackme"];
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
-const REPO_LINK = command.repoLink;
+const GIT_LINK = command.gitLink;
+const LINKEDIN_LINK = command.linkedinLink;
+const INSTAGRAM_LINK = command.instagramLink;
+const GCLOUD_LINK = command.gitLink;
+const GPROFILE_LINK = command.gitLink;
+const UNITY_LINK = command.gitLink;
+const DISCORD_LINK = command.gitLink;
+const EMAIL_LINK = command.gitLink;
+
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
@@ -226,10 +234,10 @@ function commandHandler(input : string) {
       }
       writeLines(PROJECTS);
       break;
-    case 'repo':
+    case 'github':
       writeLines(["Redirecting to github.com...", "<br>"]);
       setTimeout(() => {
-        window.open(REPO_LINK, '_blank');
+        window.open( GIT_LINK, '_blank');
       }, 500);
       break;
       case 'hackme':
@@ -247,13 +255,47 @@ function commandHandler(input : string) {
       writeLines(Neko);
       break;
     case 'linkedin':
-      //add stuff here
+      writeLines(["Redirecting to github.com...", "<br>"]);
+      setTimeout(() => {
+        window.open( LINKEDIN_LINK, '_blank');
+      }, 500);
+     break;
+    case 'discord':
+      writeLines(["Redirecting to github.com...", "<br>"]);
+      setTimeout(() => {
+        window.open( DISCORD_LINK, '_blank');
+      }, 500);
+     break;
+    case 'instagram':
+      writeLines(["Redirecting to github.com...", "<br>"]);
+      setTimeout(() => {
+        window.open( INSTAGRAM_LINK, '_blank');
+      }, 500);
+     break;
+    case 'gcloud':
+      writeLines(["Redirecting to github.com...", "<br>"]);
+      setTimeout(() => {
+        window.open( GCLOUD_LINK, '_blank');
+      }, 500);
+     break;
+    case 'gdeveloper':
+      writeLines(["Redirecting to github.com...", "<br>"]);
+      setTimeout(() => {
+        window.open( GPROFILE_LINK, '_blank');
+      }, 500);
+     break;
+    case 'unity':
+      writeLines(["Redirecting to github.com...", "<br>"]);
+      setTimeout(() => {
+        window.open( UNITY_LINK, '_blank');
+      }, 500);
       break;
-    case 'github':
-      //add stuff here
-      break;
+    
     case 'email':
-      //add stuff here
+      writeLines(["Redirecting to github.com...", "<br>"]);
+      setTimeout(() => {
+        window.open( EMAIL_LINK, '_blank');
+      }, 500);
       break;
     case 'rm -rf':
       if (bareMode) {
