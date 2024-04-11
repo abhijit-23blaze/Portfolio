@@ -255,44 +255,44 @@ function commandHandler(input : string) {
       writeLines(Neko);
       break;
     case 'linkedin':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+      writeLines(["Redirecting to linkedin...", "<br>"]);
       setTimeout(() => {
         window.open( LINKEDIN_LINK, '_blank');
       }, 500);
      break;
     case 'discord':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+      writeLines(["Redirecting to discord...", "<br>"]);
       setTimeout(() => {
         window.open( DISCORD_LINK, '_blank');
       }, 500);
      break;
     case 'instagram':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+      writeLines(["Redirecting to instagram...", "<br>"]);
       setTimeout(() => {
         window.open( INSTAGRAM_LINK, '_blank');
       }, 500);
      break;
     case 'gcloud':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+      writeLines(["Redirecting to google cloud profile...", "<br>"]);
       setTimeout(() => {
         window.open( GCLOUD_LINK, '_blank');
       }, 500);
      break;
     case 'gdeveloper':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+      writeLines(["Redirecting to google developer profile...", "<br>"]);
       setTimeout(() => {
         window.open( GPROFILE_LINK, '_blank');
       }, 500);
      break;
     case 'unity':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+      writeLines(["Redirecting to unity learn profile...", "<br>"]);
       setTimeout(() => {
         window.open( UNITY_LINK, '_blank');
       }, 500);
       break;
     
     case 'email':
-      writeLines(["Redirecting to github.com...", "<br>"]);
+      writeLines(["Redirecting to email...", "<br>"]);
       setTimeout(() => {
         window.open( EMAIL_LINK, '_blank');
       }, 500);
