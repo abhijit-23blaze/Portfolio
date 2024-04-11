@@ -30,17 +30,17 @@ const PRE_USER = document.getElementById("pre-user");
 const HOST = document.getElementById("host");
 const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear", "hackme"];
+const COMMANDS = ["help", "about", "projects", "whoami", "banner", "clear", "hackme", "sudo", "s/github", "s/linkedin", "s/instagram", "s/discord", "s/gcloud", "s/gdeveloper", "s/unity", "s/email"];
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
 const GIT_LINK = command.gitLink;
 const LINKEDIN_LINK = command.linkedinLink;
 const INSTAGRAM_LINK = command.instagramLink;
-const GCLOUD_LINK = command.gitLink;
-const GPROFILE_LINK = command.gitLink;
-const UNITY_LINK = command.gitLink;
-const DISCORD_LINK = command.gitLink;
-const EMAIL_LINK = command.gitLink;
+const GCLOUD_LINK = command.gcloudLink;
+const GPROFILE_LINK = command.gprofileLink;
+const UNITY_LINK = command.unityLink;
+const DISCORD_LINK = command.discordLink;
+const EMAIL_LINK = command.emailLink;
 
 
 const scrollToBottom = () => {
@@ -234,7 +234,7 @@ function commandHandler(input : string) {
       }
       writeLines(PROJECTS);
       break;
-    case 'github':
+    case 's/github':
       writeLines(["Redirecting to github.com...", "<br>"]);
       setTimeout(() => {
         window.open( GIT_LINK, '_blank');
@@ -254,48 +254,51 @@ function commandHandler(input : string) {
       }
       writeLines(Neko);
       break;
-    case 'linkedin':
+    case 's/linkedin':
       writeLines(["Redirecting to linkedin...", "<br>"]);
       setTimeout(() => {
         window.open( LINKEDIN_LINK, '_blank');
       }, 500);
      break;
-    case 'discord':
+    case 's/discord':
       writeLines(["Redirecting to discord...", "<br>"]);
       setTimeout(() => {
         window.open( DISCORD_LINK, '_blank');
       }, 500);
      break;
-    case 'instagram':
+    case 's/instagram':
       writeLines(["Redirecting to instagram...", "<br>"]);
       setTimeout(() => {
         window.open( INSTAGRAM_LINK, '_blank');
       }, 500);
      break;
-    case 'gcloud':
+    case 's/gcloud':
       writeLines(["Redirecting to google cloud profile...", "<br>"]);
       setTimeout(() => {
         window.open( GCLOUD_LINK, '_blank');
       }, 500);
      break;
-    case 'gdeveloper':
+    case 's/gdeveloper':
       writeLines(["Redirecting to google developer profile...", "<br>"]);
       setTimeout(() => {
         window.open( GPROFILE_LINK, '_blank');
       }, 500);
      break;
-    case 'unity':
+    case 's/unity':
       writeLines(["Redirecting to unity learn profile...", "<br>"]);
       setTimeout(() => {
         window.open( UNITY_LINK, '_blank');
       }, 500);
       break;
     
-    case 'email':
+    case 's/email':
       writeLines(["Redirecting to email...", "<br>"]);
       setTimeout(() => {
         window.open( EMAIL_LINK, '_blank');
       }, 500);
+      break;
+    case 'p/insiiits':
+      //add project here
       break;
     case 'rm -rf':
       if (bareMode) {

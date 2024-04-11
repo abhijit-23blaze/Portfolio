@@ -12,16 +12,37 @@ const helpObj = {
       "'whoami'",
       "A perplexing question."
     ],
-    [
-      "'github'",
-      "Stalk me on GitHub"
-    ],
     ["'banner'",
       "Display the banner."
     ],
     [
       "'clear'",
       "Clear the terminal."
+    ],
+    [
+      "'s/github'",
+      "Stalk me on GitHub (follow plz)"
+    ],
+    ["'s/linkedin'",
+      "Let's connect onLinkedin"
+    ],
+    ["'s/discord'",
+      "I am a pro-g(r)amer"
+    ],
+    ["'s/instagram'",
+      "Folow me on Instagram"
+    ],
+    ["'s/gcloud'",
+      "Felxin my google cloud skills"
+    ],
+    ["'s/gdeveloper'",
+      "Got to get my eyes on that google developer profile"
+    ],
+    ["'s/unity'",
+      "Unity plz fix your servers(or hire me to do that)"
+    ],
+    ["'s/email'",
+      "Mail me your deepest fears"
     ],
     ["'sudo'",
       "???"

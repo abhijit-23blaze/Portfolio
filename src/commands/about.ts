@@ -22,8 +22,7 @@ const createAbout = () : string[] => {
   string += SPACE.repeat(2);
   string += email;
   string += SPACE.repeat(17 - EMAIL.length);
-  string += `<a target='_blank' href='mailto:${command.social.email}@gmail.com?Subject=Hello&body=links:  %0D 
-  http://link1.com  %0D http://link1.com'>${command.social.email}</a>`;
+  string += `<a target='_blank' href='mailto:${command.social.email}?Subject=Hello&body=Just saw yuor website and it amazed me'>${command.social.email}</a>`;
   about.push(string);
 
   string = '';
