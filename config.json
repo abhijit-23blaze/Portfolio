@@ -30,12 +30,14 @@
   "hackme": "There is a chain of Easter Eggs hidden in this website, find the sudo password and earn my respect forever (～￣▽￣)～",
   "hackme1": "P.S : I am a big fan of Japanese cats !! ^_^",
   "aboutGreeting": "Hello I am Abhijit Patil 🖐️, an 18y/o student-developer from India currently attending IIIT Sri City in ECE branch",
-  "aboutSkills": "I have interests over numerous domains of computer science so don't judge me just now",
+  "aboutSkills": "I have interests over numerous domains of computer science so don't judge me just yet",
   "aboutSkills1": "Check out my projects by typing 'projects' + enter to understand me better 😊",
   "projects": [
     [
       
-      "sems"
+      "Project Name",
+      "Project Description",
+      "Project Link"
     ],
     [
       
@@ -62,7 +64,7 @@
       "highlightText": "#0C0623"
     },
     "commands": {
-      "textColor": "#8E1EFF"
+      "textColor": "#03fc0f"
     }
   }
 }

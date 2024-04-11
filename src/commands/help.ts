@@ -12,12 +12,6 @@ const helpObj = {
       "'whoami'",
       "A perplexing question."
     ],
-    ["'sudo'",
-      "???"
-    ],
-    ["'Hackme'",
-      "??Hecker ⊙﹏⊙∥"
-    ],
     [
       "'repo'",
       "View the Github Repository."
@@ -28,6 +22,12 @@ const helpObj = {
     [
       "'clear'",
       "Clear the terminal."
+    ],
+    ["'sudo'",
+      "???"
+    ],
+    ["'hackme'",
+      "??hacker"
     ]
   ],
 }
