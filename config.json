@@ -53,9 +53,9 @@
     ]
   ],
   "colors": {
-    "background": "#090300",
+    "background": "#000000",
     "foreground": "#D6D5D4",
-    "banner": "#807D7C",
+    "banner": "#c4c4c4",
     "border": {
       "visible": true,
       "color": "#807D7C"
