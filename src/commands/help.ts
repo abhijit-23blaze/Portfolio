@@ -9,6 +9,14 @@ const helpObj = {
       "Maybe there's something interesting."
     ],
     [
+      "'achievements'",
+      "Flex Flex."
+    ],
+    [
+      "'workexp'",
+      "Display previous work-experinces/internships."
+    ],
+    [
       "'whoami'",
       "A perplexing question."
     ],
@@ -20,11 +28,19 @@ const helpObj = {
       "Clear the terminal."
     ],
     [
+      "",
+      ""
+    ],
+    [
+      "",
+      "---[Socials]--"
+    ],
+    [
       "'s/github'",
       "Stalk me on GitHub (follow plz)"
     ],
     ["'s/linkedin'",
-      "Let's connect onLinkedin"
+      "Let's connect on Linkedin"
     ],
     ["'s/discord'",
       "I am a pro-g(r)amer"
@@ -60,11 +76,11 @@ const createHelp = () : string[] => {
   helpObj.commands.forEach((ele) => {
     const SPACE = "&nbsp;";
     let string = "";
-    string += SPACE.repeat(2);
+    string += SPACE.repeat(1);
     string += "<span class='command'>";
     string += ele[0];
     string += "</span>";
-    string += SPACE.repeat(17 - ele[0].length);
+    string += SPACE.repeat(16 - ele[0].length);
     string += ele[1];
     help.push(string);
   })

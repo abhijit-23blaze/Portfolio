@@ -24,6 +24,13 @@ const whoamiObj = {
       "I am the thread of self-inquiry,",
       "weaving through the eternal question - "
     ],
+    [
+      "Some people read Some people can read War and Peace,",
+      "and come away thinking it's a simple adventure story.",
+      "Others can read the ingredients on a chewing gum wrapper,",
+      "and unlock the secrets of the universe - ",
+      
+    ],
   ],
 }
 
