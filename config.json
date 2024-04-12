@@ -40,18 +40,47 @@
   "aboutGreeting": "An 18y/o student-developer from Pune, India 🇮🇳,",
   "aboutSkills": "I have interests spanning over various domains,",
   "aboutSkills1": "Check out my projects by typing ",
-  "projects": [
-    [
+  "projects":{
+    "webdev": [
+      [
+        
+        "Project Name",
+        "Project Description",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        "open/close source",
+        "ongoing/completed",
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ],
+      [
+        
+        "Agro something"
+      ]
       
-      "Project Name",
-      "Project Description",
-      "Project Link"
     ],
-    [
-      
-      "Agro something"
+    "appdev": [
+      [
+        
+        "Project Name",
+        "Project Description",
+        "Project Link"
+      ],
+      [
+        
+        "Agro something"
+      ]
     ]
-  ],
+  },
   "colors": {
     "background": "#000000",
     "foreground": "#D6D5D4",

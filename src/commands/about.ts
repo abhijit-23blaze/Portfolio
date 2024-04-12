@@ -23,10 +23,11 @@ const createAbout = () : string[] => {
   about.push(command.aboutSkills1);
   about.push("<span class='command'>'projects'</span> + enter");
   about.push("to understand me better 😊.");
+  about.push("<br>");
   about.push("But other than that, I am a simple man,");
   about.push("a student in the daytime 👨‍🎓");
   about.push("and a programmer in the night time, 👨‍💻");
-  about.push("working on the next Big thing from my dorm room. 💻");
+  about.push("working on the next Big thing from my dorm room.💻");
   about.push("If you liked this website, reach out to me !!");
   about.push("<br>");
   string += SPACE.repeat(1);
