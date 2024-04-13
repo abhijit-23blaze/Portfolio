@@ -10,7 +10,7 @@ const createProject = () : string[] => {
   projects.push("Here is an overview of some of my projects domain-wise")
   projects.push("do p/[project name] to get more details about the project")
   projects.push("<br>")
-  projects.push(">>> <span class='command'>WEB DEV</span>")
+  projects.push("---> <span class='domainname'>WEB DEV</span>")
   projects.push("<br>")
   
   command.projects.webdev.forEach((ele) => {
@@ -18,7 +18,9 @@ const createProject = () : string[] => {
     string += SPACE.repeat(1);
     string += link;
     string += SPACE.repeat(16 - ele[0].length);
-    string += ele[1];
+    string += ele[10];
+    string += SPACE.repeat(16 - ele[0].length);
+    string += ele[2];
     projects.push(string);
     string = '';
   });
