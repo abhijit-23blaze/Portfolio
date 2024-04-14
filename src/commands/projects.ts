@@ -14,13 +14,15 @@ const createProject = () : string[] => {
   projects.push("<br>")
   
   command.projects.webdev.forEach((ele) => {
-    let link = `<span class = 'projectname'>${ele[0]}</span>`
+    let link = `<span class = 'projectname'>${ele[0]} /span>`
     string += SPACE.repeat(1);
     string += link;
     string += SPACE.repeat(16 - ele[0].length);
-    string += ele[10];
-    string += SPACE.repeat(16 - ele[0].length);
+    string += ele[1];
+    string += SPACE.repeat(20 - ele[1].length);
     string += ele[2];
+    string += SPACE.repeat(20 - ele[2].length);
+    string += ele[3];
     projects.push(string);
     string = '';
   });
