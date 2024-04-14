@@ -14,7 +14,7 @@ const createProject = () : string[] => {
   projects.push("<br>")
   
   command.projects.webdev.forEach((ele) => {
-    let link = `<span class = 'projectname'>${ele[0]} /span>`
+    let link = `<span class = 'projectname'>${ele[0]} </span>`
     string += SPACE.repeat(1);
     string += link;
     string += SPACE.repeat(16 - ele[0].length);
