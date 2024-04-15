@@ -12,10 +12,10 @@ const helpObj = {
       "'achievements'",
       "Flex Flex."
     ],
-    [
-      "'workexp'",
-      "Display previous work-experinces/internships."
-    ],
+    // [
+    //   "'workexp'",
+    //   "Display previous work-experinces/internships."
+    // ],
     [
       "'whoami'",
       "A perplexing question."

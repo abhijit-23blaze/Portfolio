@@ -14,7 +14,7 @@ const createProject = () : string[] => {
 
   projects.push("<br>")
   projects.push("Here is an overview of some of my projects domain-wise")
-  projects.push("do p/[project name] to get more details about the project")
+  projects.push("do <span class = 'command'>p/[project name]</span> to get more details about the project")
   projects.push("<br>")
 
   //Webdev
