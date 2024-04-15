@@ -2,34 +2,159 @@ import command from '../../config.json' assert {type: 'json'};
 
 const createProject = () : string[] => {
   let string = "";
+  let string2 = "";
   const projects : string[] = [];
   const files = `${command.projects.webdev.length} File(s)`;
+  const files1 = `${command.projects.webdev.length} File(s)`;
+  const files2 = `${command.projects.webdev.length} File(s)`;
+  const files3 = `${command.projects.webdev.length} File(s)`;
+
   const SPACE = "&nbsp;";
 
   projects.push("<br>")
   projects.push("Here is an overview of some of my projects domain-wise")
   projects.push("do p/[project name] to get more details about the project")
   projects.push("<br>")
+
+  //Webdev
   projects.push("---> <span class='domainname'>WEB DEV</span>")
   projects.push("<br>")
   
   command.projects.webdev.forEach((ele) => {
     let link = `<span class = 'projectname'>${ele[0]} </span>`
-    string += SPACE.repeat(1);
+    // string += SPACE.repeat(1);
     string += link;
     string += SPACE.repeat(16 - ele[0].length);
-    string += ele[1];
-    string += SPACE.repeat(20 - ele[1].length);
+    // string += ele[1];
+    // string += SPACE.repeat(20 - ele[1].length);
     string += ele[2];
     string += SPACE.repeat(20 - ele[2].length);
     string += ele[3];
     projects.push(string);
+    string2 += SPACE.repeat(2);
+    string2 += ele[1];
+    projects.push(string2);
+    projects.push("<br>");
     string = '';
-  });
+    string2 = '';
+    });
 
-  projects.push("<br>");
+  // projects.push("<br>");
   projects.push(files);
   projects.push("<br>");
+
+  //Appdev
+  projects.push("---> <span class='domainname'>FLUTTER DEV</span>")
+  projects.push("<br>")
+  
+  command.projects.webdev.forEach((ele) => {
+    let link = `<span class = 'projectname'>${ele[0]} </span>`
+    // string += SPACE.repeat(1);
+    string += link;
+    string += SPACE.repeat(16 - ele[0].length);
+    // string += ele[1];
+    // string += SPACE.repeat(20 - ele[1].length);
+    string += ele[2];
+    string += SPACE.repeat(20 - ele[2].length);
+    string += ele[3];
+    projects.push(string);
+    string2 += SPACE.repeat(2);
+    string2 += ele[1];
+    projects.push(string2);
+    projects.push("<br>");
+    string = '';
+    string2 = '';
+    });
+
+  // projects.push("<br>");
+  projects.push(files);
+  projects.push("<br>");
+
+
+  //VR DEV
+  projects.push("---> <span class='domainname'>VR DEV</span>")
+  projects.push("<br>")
+  
+  command.projects.webdev.forEach((ele) => {
+    let link = `<span class = 'projectname'>${ele[0]} </span>`
+    // string += SPACE.repeat(1);
+    string += link;
+    string += SPACE.repeat(16 - ele[0].length);
+    // string += ele[1];
+    // string += SPACE.repeat(20 - ele[1].length);
+    string += ele[2];
+    string += SPACE.repeat(20 - ele[2].length);
+    string += ele[3];
+    projects.push(string);
+    string2 += SPACE.repeat(2);
+    string2 += ele[1];
+    projects.push(string2);
+    projects.push("<br>");
+    string = '';
+    string2 = '';
+    });
+
+  // projects.push("<br>");
+  projects.push(files);
+  projects.push("<br>");
+
+
+  //CYBER SEC
+  projects.push("---> <span class='domainname'>CYBER SECURITY</span>")
+  projects.push("<br>")
+  
+  command.projects.webdev.forEach((ele) => {
+    let link = `<span class = 'projectname'>${ele[0]} </span>`
+    // string += SPACE.repeat(1);
+    string += link;
+    string += SPACE.repeat(16 - ele[0].length);
+    // string += ele[1];
+    // string += SPACE.repeat(20 - ele[1].length);
+    string += ele[2];
+    string += SPACE.repeat(20 - ele[2].length);
+    string += ele[3];
+    projects.push(string);
+    string2 += SPACE.repeat(2);
+    string2 += ele[1];
+    projects.push(string2);
+    projects.push("<br>");
+    string = '';
+    string2 = '';
+    });
+
+  // projects.push("<br>");
+  projects.push(files);
+  projects.push("<br>");
+
+
+  //robotics
+  projects.push("---> <span class='domainname'>ROBOTICS</span>")
+  projects.push("<br>")
+  
+  command.projects.webdev.forEach((ele) => {
+    let link = `<span class = 'projectname'>${ele[0]} </span>`
+    // string += SPACE.repeat(1);
+    string += link;
+    string += SPACE.repeat(16 - ele[0].length);
+    // string += ele[1];
+    // string += SPACE.repeat(20 - ele[1].length);
+    string += ele[2];
+    string += SPACE.repeat(20 - ele[2].length);
+    string += ele[3];
+    projects.push(string);
+    string2 += SPACE.repeat(2);
+    string2 += ele[1];
+    projects.push(string2);
+    projects.push("<br>");
+    string = '';
+    string2 = '';
+    });
+
+  // projects.push("<br>");
+  projects.push(files);
+  projects.push("<br>");
+
+
   return projects
 }
 
