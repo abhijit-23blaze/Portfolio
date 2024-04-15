@@ -44,10 +44,10 @@
     "webdev": [
       [
         
-        "Project Name",
-        "Project Description",
-        "open/close source",
-        "ongoing/completed",
+        "Insiiits",
+        "Emmersive website hosting the official college newsletter of IIIT sricity",
+        "[open source]",
+        "[version 2 released]",
         "Project description long1",
         "Project description long2",
         "Project description long3",
@@ -66,10 +66,10 @@
       ],
       [
         
-        "Project Name",
-        "Project Description",
-        "open/close source",
-        "ongoing/completed",
+        "Portfolio",
+        "Terminal style website based on vite and tyescript for hosting Portfolio",
+        "[close source]",
+        "[completed]",
         "Project description long1",
         "Project description long2",
         "Project description long3",
@@ -89,17 +89,198 @@
       
       
     ],
-    "appdev": [
+    "flutterdev": [
       [
         
-        "Project Name",
-        "Project Description",
-        "Project Link"
+        "Harvesthub",
+        "App for farmers to rent out high tech equipment affordably",
+        "[open source]",
+        "[made for App-a-thon IIITS]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
       ],
       [
         
-        "Agro something"
+        "Sems",
+        "App inteface for SEMS (Socket Electricity Management System) :an innovative way to intelligently control electric components remotely and save Electricity",
+        "[close source]",
+        "[made for ICDCIT (kiit)]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ],
+      [
+        
+        "Komet",
+        "A travel guiding app for Heritage places to promote hiking culture and create jobs for the local people",
+        "[open source]",
+        "[made for SIH 23 (incomplete)]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ],
+      [
+        
+        "Vimarsh23",
+        "An AI powered app to help the police authority with invesigation of criminal cases",
+        "[open source]",
+        "[made for vimarsh23 (incomplete)]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
       ]
+      
+      
+    
+    ],
+    "vrdev": [
+      [
+        
+        "Memesaber",
+        "A fun vr game where you fight off against popular memes who are after you and your time by slicing them with an ancient katana in the middle of Japan",
+        "[close source]",
+        "[early beta released on quest-store and sidequest]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ],
+      [
+        
+        "NCERTeducation",
+        "A VR game that immersively teaches student abut EM waves and AC current through various experiments in VR ",
+        "[close source]",
+        "[completed]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ]
+      
+      
+    ],
+    "cybersec": [
+      [
+        
+        "CTF",
+        "An ellaborate CTF quest that is hidden right inside of this website",
+        "[close source]",
+        "[completed]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ]
+      
+      
+    ],
+    "robotics": [
+      [
+        
+        "FlightController",
+        "A flight controller for a drone coded on an esp32 with mpu6065 for gyroscope",
+        "[opensource]",
+        "[made for TechTales IIITS]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ]
+      
+      
     ]
   },
   "colors": {

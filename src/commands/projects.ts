@@ -5,9 +5,10 @@ const createProject = () : string[] => {
   let string2 = "";
   const projects : string[] = [];
   const files = `${command.projects.webdev.length} File(s)`;
-  const files1 = `${command.projects.webdev.length} File(s)`;
-  const files2 = `${command.projects.webdev.length} File(s)`;
-  const files3 = `${command.projects.webdev.length} File(s)`;
+  const files1 = `${command.projects.flutterdev.length} File(s)`;
+  const files2 = `${command.projects.vrdev.length} File(s)`;
+  const files3 = `${command.projects.cybersec.length} File(s)`;
+  const files4 = `${command.projects.robotics.length} File(s)`;
 
   const SPACE = "&nbsp;";
 
@@ -47,7 +48,7 @@ const createProject = () : string[] => {
   projects.push("---> <span class='domainname'>FLUTTER DEV</span>")
   projects.push("<br>")
   
-  command.projects.webdev.forEach((ele) => {
+  command.projects.flutterdev.forEach((ele) => {
     let link = `<span class = 'projectname'>${ele[0]} </span>`
     // string += SPACE.repeat(1);
     string += link;
@@ -67,7 +68,7 @@ const createProject = () : string[] => {
     });
 
   // projects.push("<br>");
-  projects.push(files);
+  projects.push(files1);
   projects.push("<br>");
 
 
@@ -75,7 +76,7 @@ const createProject = () : string[] => {
   projects.push("---> <span class='domainname'>VR DEV</span>")
   projects.push("<br>")
   
-  command.projects.webdev.forEach((ele) => {
+  command.projects.vrdev.forEach((ele) => {
     let link = `<span class = 'projectname'>${ele[0]} </span>`
     // string += SPACE.repeat(1);
     string += link;
@@ -95,7 +96,7 @@ const createProject = () : string[] => {
     });
 
   // projects.push("<br>");
-  projects.push(files);
+  projects.push(files2);
   projects.push("<br>");
 
 
@@ -103,7 +104,7 @@ const createProject = () : string[] => {
   projects.push("---> <span class='domainname'>CYBER SECURITY</span>")
   projects.push("<br>")
   
-  command.projects.webdev.forEach((ele) => {
+  command.projects.cybersec.forEach((ele) => {
     let link = `<span class = 'projectname'>${ele[0]} </span>`
     // string += SPACE.repeat(1);
     string += link;
@@ -123,7 +124,7 @@ const createProject = () : string[] => {
     });
 
   // projects.push("<br>");
-  projects.push(files);
+  projects.push(files3);
   projects.push("<br>");
 
 
@@ -131,7 +132,7 @@ const createProject = () : string[] => {
   projects.push("---> <span class='domainname'>ROBOTICS</span>")
   projects.push("<br>")
   
-  command.projects.webdev.forEach((ele) => {
+  command.projects.robotics.forEach((ele) => {
     let link = `<span class = 'projectname'>${ele[0]} </span>`
     // string += SPACE.repeat(1);
     string += link;
@@ -151,7 +152,7 @@ const createProject = () : string[] => {
     });
 
   // projects.push("<br>");
-  projects.push(files);
+  projects.push(files4);
   projects.push("<br>");
 
 
