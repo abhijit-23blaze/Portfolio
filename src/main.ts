@@ -191,7 +191,55 @@ function commandHandler(input : string) {
   }
   if (input.startsWith("p/")) {
 
-    //write the rpojects codde here
+    for(const ele of command.projects.webdev){
+
+      if (ele[0] == input.slice(2) ) {
+
+        writeLines([ele[1]])
+        
+      }
+    }
+    for(const ele of command.projects.flutterdev){
+
+      if (ele[0] == input.slice(2) ) {
+
+        writeLines(["<br>"])
+
+        writeLines([ele[0]])
+        writeLines(["<br>"])
+        writeLines([ele[1]])
+        writeLines(["<br>"])
+        writeLines([ele[4]])
+        writeLines([ele[5]])
+        writeLines([ele[6]])
+        mutWriteLines = WRITELINESCOPY;
+        
+      }
+    }
+    for(const ele of command.projects.vrdev){
+
+      if (ele[0] == input.slice(2) ) {
+
+        writeLines([ele[1]])
+        
+      }
+    }
+    for(const ele of command.projects.cybersec){
+
+      if (ele[0] == input.slice(2) ) {
+
+        writeLines([ele[1]])
+        
+      }
+    }
+    for(const ele of command.projects.robotics){
+
+      if (ele[0] == input.slice(2) ) {
+
+        writeLines([ele[1]])
+        
+      }
+    }
     
   }
 
@@ -302,9 +350,7 @@ function commandHandler(input : string) {
         window.open( EMAIL_LINK, '_blank');
       }, 500);
       break;
-    case 'p/insiiits':
-      //add project here
-      break;
+    
     case 'rm -rf':
       if (bareMode) {
         writeLines(["don't try again.", "<br>"])
