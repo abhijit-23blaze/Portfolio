@@ -7,6 +7,7 @@ import { PROJECTS } from "./commands/projects";
 import { createWhoami } from "./commands/whoami";
 import { Hackme } from "./commands/hackme";
 import { Neko } from "./commands/neko";
+import { ACHIEVEMENTS } from "./commands/achievements";
 
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
@@ -298,6 +299,13 @@ function commandHandler(input : string) {
         break;
       }
       writeLines(PROJECTS);
+      break;
+    case 'achievements':
+      if(bareMode) {
+        writeLines(["I don't want you to break the other things.", "<br>"])
+        break;
+      }
+      writeLines(ACHIEVEMENTS);
       break;
     case 's/github':
       writeLines(["Redirecting to github.com...", "<br>"]);

@@ -40,6 +40,99 @@
   "aboutGreeting": "An 18y/o student-developer from Pune, India 🇮🇳,",
   "aboutSkills": "I have interests spanning over various domains,",
   "aboutSkills1": "Check out my projects by typing ",
+  "achievements":{
+    "big" : [
+
+    [
+      "ICDICT",
+      "Feb '24",
+      "by ??",
+      "useful link 1",
+      "useful link 2",
+      "Project description long1",
+      "Project description long2",
+      "Project description long3",
+      "Project description long4",
+      "Project description long5"
+    ],
+    [
+      "ICDICT",
+      "Feb '24",
+      "by??",
+      "useful link 1",
+      "useful link 2",
+      "Project description long1",
+      "Project description long2",
+      "Project description long3",
+      "Project description long4",
+      "Project description long5"
+    ],
+    [
+      "ICDICT",
+      "Feb '24",
+      "by ??",
+      "useful link 1",
+      "useful link 2",
+      "Project description long1",
+      "Project description long2",
+      "Project description long3",
+      "Project description long4",
+      "Project description long5"
+    ],
+    [
+      "ICDICT",
+      "Feb '24",
+      "by??",
+      "useful link 1",
+      "useful link 2",
+      "Project description long1",
+      "Project description long2",
+      "Project description long3",
+      "Project description long4",
+      "Project description long5"
+    ]
+    ],
+
+    "small" :[
+
+      [
+        "ICDICT",
+        "Feb '24",
+        "by??",
+        "useful link 1",
+        "useful link 2",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5"
+      ],[
+        "ICDICT",
+        "Feb '24",
+        "by??",
+        "useful link 1",
+        "useful link 2",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5"
+      ],[
+        "ICDICT",
+        "Feb '24",
+        "by??",
+        "useful link 1",
+        "useful link 2",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5"
+      ]
+    ]
+
+
+  },
   "projects":{
     "webdev": [
       [
