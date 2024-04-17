@@ -195,7 +195,29 @@ function commandHandler(input : string) {
 
       if (ele[0] == input.slice(2) ) {
 
+        writeLines(["<br>"])
+        let string = "";
+        const SPACE = "&nbsp;";
+        // string += SPACE.repeat(4);
+        string += "---><span class='name'>";
+        string += ele[11];
+        string += "</span>";
+        string += SPACE.repeat(16 - ele[0].length);
+        // string += ele[1];
+        writeLines([string])
+        writeLines(["<br>"])
+        // writeLines([ele[11]])
+        // writeLines(["<br>"])
         writeLines([ele[1]])
+        writeLines(["<br>"])
+        writeLines([ele[4]])
+        writeLines([ele[5]])
+        writeLines([ele[6]])
+        writeLines([ele[7]])
+        writeLines([ele[8]])
+        writeLines([ele[9]])
+
+        mutWriteLines = WRITELINESCOPY;
         
       }
     }
