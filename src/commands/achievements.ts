@@ -20,8 +20,8 @@ const createProject = () : string[] => {
     let link = `<span class = 'projectname'>${ele[0]}</span>`
     // string += SPACE.repeat(1);
     string += link;
-    string += SPACE.repeat(16 - ele[0].length);
-    // string += ele[1];
+    string += SPACE.repeat(25 - ele[0].length);
+    string += "by: ";
     // string += SPACE.repeat(20 - ele[1].length);
     string += ele[2];
     
@@ -36,6 +36,9 @@ const createProject = () : string[] => {
     projects.push("<br>");
     projects.push(ele[3]);
     projects.push(ele[4]);
+    projects.push("<br>");
+    projects.push("<br>");
+
     string = '';
     
     });
