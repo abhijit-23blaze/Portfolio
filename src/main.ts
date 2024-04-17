@@ -210,12 +210,10 @@ function commandHandler(input : string) {
         // writeLines(["<br>"])
         writeLines([ele[1]])
         writeLines(["<br>"])
-        writeLines([ele[4]])
-        writeLines([ele[5]])
-        writeLines([ele[6]])
-        writeLines([ele[7]])
-        writeLines([ele[8]])
+        writeLines([ele[2]])
+        writeLines([ele[3]])
         writeLines([ele[9]])
+        writeLines([ele[10]])
 
         mutWriteLines = WRITELINESCOPY;
         
@@ -384,6 +382,9 @@ function commandHandler(input : string) {
       setTimeout(() => {
         window.open( EMAIL_LINK, '_blank');
       }, 500);
+      break;
+      case 'p/':
+      
       break;
     
     case 'rm -rf':
