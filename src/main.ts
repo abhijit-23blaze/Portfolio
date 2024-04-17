@@ -191,12 +191,17 @@ function commandHandler(input : string) {
   }
   if (input.startsWith("p/")) {
 
+    let i = 0;
+
     for(const ele of command.projects.webdev){
 
       if (ele[0] == input.slice(2) ) {
 
         writeLines(createProject(ele))
         
+      }
+      else{
+        i ++ ;
       }
     }
     for(const ele of command.projects.flutterdev){
@@ -205,6 +210,8 @@ function commandHandler(input : string) {
 
         writeLines(createProject(ele))
         
+      }else{
+        i ++ ;
       }
     
     }
@@ -214,6 +221,8 @@ function commandHandler(input : string) {
 
         writeLines(createProject(ele))
         
+      }else{
+        i ++ ;
       }
     
     }
@@ -223,6 +232,8 @@ function commandHandler(input : string) {
 
         writeLines(createProject(ele))
         
+      }else{
+        i ++ ;
       }
     
     }
@@ -232,7 +243,14 @@ function commandHandler(input : string) {
 
         writeLines(createProject(ele))
         
+      }else{
+        i ++ ;
       }
+    }
+    if (i >= 10) {
+      writeLines(DEFAULT);
+
+      i=0;
     }
     
   }
