@@ -195,27 +195,7 @@ function commandHandler(input : string) {
 
       if (ele[0] == input.slice(2) ) {
 
-        writeLines(["<br>"])
-        let string = "";
-        const SPACE = "&nbsp;";
-        // string += SPACE.repeat(4);
-        string += "---><span class='name'>";
-        string += ele[11];
-        string += "</span>";
-        string += SPACE.repeat(16 - ele[0].length);
-        // string += ele[1];
-        writeLines([string])
-        writeLines(["<br>"])
-        // writeLines([ele[11]])
-        // writeLines(["<br>"])
-        writeLines([ele[1]])
-        writeLines(["<br>"])
-        writeLines([ele[2]])
-        writeLines([ele[3]])
-        writeLines([ele[9]])
-        writeLines([ele[10]])
-
-        mutWriteLines = WRITELINESCOPY;
+        writeLines(createProject(ele))
         
       }
     }
@@ -223,59 +203,39 @@ function commandHandler(input : string) {
 
       if (ele[0] == input.slice(2) ) {
 
-        writeLines(["<br>"])
-        let string = "";
-        const SPACE = "&nbsp;";
-        // string += SPACE.repeat(4);
-        string += "---><span class='name'>";
-        string += ele[11];
-        string += "</span>";
-        string += SPACE.repeat(16 - ele[0].length);
-        // string += ele[1];
-        writeLines([string])
-        writeLines(["<br>"])
-        // writeLines([ele[11]])
-        // writeLines(["<br>"])
-        writeLines([ele[1]])
-        writeLines(["<br>"])
-        writeLines([ele[4]])
-        writeLines([ele[5]])
-        writeLines([ele[6]])
-        writeLines([ele[7]])
-        writeLines([ele[8]])
-        writeLines([ele[9]])
-
-        mutWriteLines = WRITELINESCOPY;
+        writeLines(createProject(ele))
         
       }
+    
     }
     for(const ele of command.projects.vrdev){
 
       if (ele[0] == input.slice(2) ) {
 
-        writeLines([ele[1]])
+        writeLines(createProject(ele))
         
       }
+    
     }
     for(const ele of command.projects.cybersec){
 
       if (ele[0] == input.slice(2) ) {
 
-        writeLines([ele[1]])
+        writeLines(createProject(ele))
         
       }
+    
     }
     for(const ele of command.projects.robotics){
 
       if (ele[0] == input.slice(2) ) {
 
-        writeLines([ele[1]])
+        writeLines(createProject(ele))
         
       }
     }
     
   }
-
   switch(input) {
     
     case 'clear':
@@ -455,6 +415,47 @@ function displayText(item : string, idx : number) {
     scrollToBottom();
   }, 40 * idx);
 }
+
+const createProject = (ele: string[]) : string[] => {
+
+  const project : string[] = [];
+
+  project.push("<br>")
+  let string = "";
+  const SPACE = "&nbsp;";
+  
+  string += "---><span class='name'>";
+  string += ele[11];
+  string += "</span>";
+  string += SPACE.repeat(16 - ele[0].length);
+  
+  project.push(string)
+  project.push("<br>")
+  
+  project.push(ele[1])
+  project.push("<br>")
+  project.push(ele[2])
+  project.push(ele[3])
+  project.push(ele[9])
+  project.push(ele[10])
+  project.push("<br>")
+
+  project.push(ele[4])
+  project.push(ele[5])
+  project.push(ele[6])
+  project.push(ele[7])
+  project.push(ele[8])
+  project.push("<br>")
+
+  project.push(ele[14])
+  project.push(ele[15])
+  project.push(ele[16])
+
+
+
+  return project
+}
+
 
 function revertPasswordChanges() {
     if (!INPUT_HIDDEN || !PASSWORD) return
