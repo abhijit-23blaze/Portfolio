@@ -21,10 +21,9 @@ const createProject = () : string[] => {
     // string += SPACE.repeat(1);
     string += link;
     string += SPACE.repeat(25 - ele[0].length);
-    string += "by: ";
-    // string += SPACE.repeat(20 - ele[1].length);
+    string += "by: <span class = 'by'>";
     string += ele[2];
-    
+    string += "</span>";
     projects.push(string);
     projects.push(ele[1]);
     projects.push("<br>");
