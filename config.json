@@ -55,7 +55,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "Insiiits",
         
         "img 1",
         "img 2",
@@ -78,7 +78,7 @@
         "tech stack",
         "time ?",
         
-        
+        "Portfolio",
         "img 1",
         "img 2",
         "useful link 1",
@@ -103,7 +103,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "HarvestHub",
         
         "img 1",
         "img 2",
@@ -126,7 +126,7 @@
         "tech stack",
         "time ?",
         
-        
+        "SEMS",
         "img 1",
         "img 2",
         "useful link 1",
@@ -147,7 +147,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "Komet",
         
         "img 1",
         "img 2",
@@ -169,7 +169,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "Vimarsh23",
         
         "img 1",
         "img 2",
@@ -185,7 +185,7 @@
     "vrdev": [
       [
         
-        "Memesaber",
+        "memesaber",
         "A fun vr game where you fight off against popular memes who are after you and your time by slicing them with an ancient katana in the middle of Japan",
         "[close source]",
         "[early beta released on quest-store and sidequest]",
@@ -196,7 +196,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "Memesaber",
         
         "img 1",
         "img 2",
@@ -207,7 +207,7 @@
       ],
       [
         
-        "NCERTeducation",
+        "ncerteducation",
         "A VR game that immersively teaches student abut EM waves and AC current through various experiments in VR ",
         "[close source]",
         "[completed]",
@@ -218,7 +218,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "NCERTeducation",
         
         "img 1",
         "img 2",
@@ -233,7 +233,7 @@
     "cybersec": [
       [
         
-        "CTF",
+        "ctf",
         "An ellaborate CTF quest that is hidden right inside of this website",
         "[close source]",
         "[completed]",
@@ -244,7 +244,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "CTF",
         
         "img 1",
         "img 2",
@@ -259,7 +259,7 @@
     "robotics": [
       [
         
-        "FlightController",
+        "flightcontroller",
         "A flight controller for a drone coded on an esp32 with mpu6065 for gyroscope",
         "[open source]",
         "[made for TechTales IIITS]",
@@ -270,7 +270,7 @@
         "Project description long5",
         "tech stack",
         "time ?",
-        
+        "FlightController",
         
         "img 1",
         "img 2",

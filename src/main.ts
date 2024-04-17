@@ -205,7 +205,7 @@ function commandHandler(input : string) {
 
         writeLines(["<br>"])
 
-        writeLines([ele[0]])
+        writeLines([ele[11]])
         writeLines(["<br>"])
         writeLines([ele[1]])
         writeLines(["<br>"])
