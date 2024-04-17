@@ -52,7 +52,7 @@ const createProject = () : string[] => {
     let link = `<span class = 'projectname'>${ele[11]} </span>`
     // string += SPACE.repeat(1);
     string += link;
-    string += SPACE.repeat(16 - ele[11].length);
+    // string += SPACE.repeat(16 - ele[11].length);
     // string += ele[1];
     // string += SPACE.repeat(20 - ele[1].length);
     string += ele[2];

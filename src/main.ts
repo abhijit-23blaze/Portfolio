@@ -206,11 +206,11 @@ function commandHandler(input : string) {
         writeLines(["<br>"])
         let string = "";
         const SPACE = "&nbsp;";
-        string += SPACE.repeat(4);
-        string += "<span class='name'>";
+        // string += SPACE.repeat(4);
+        string += "---><span class='name'>";
         string += ele[11];
         string += "</span>";
-        // string += SPACE.repeat(16 - ele[0].length);
+        string += SPACE.repeat(16 - ele[0].length);
         // string += ele[1];
         writeLines([string])
         writeLines(["<br>"])
