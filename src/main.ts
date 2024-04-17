@@ -277,6 +277,7 @@ function commandHandler(input : string) {
   }
 
   switch(input) {
+    
     case 'clear':
       setTimeout(() => {
         if(!TERMINAL || !WRITELINESCOPY) return
@@ -383,9 +384,7 @@ function commandHandler(input : string) {
         window.open( EMAIL_LINK, '_blank');
       }, 500);
       break;
-      case 'p/':
       
-      break;
     
     case 'rm -rf':
       if (bareMode) {
@@ -428,6 +427,9 @@ function commandHandler(input : string) {
       }
       break;
     default:
+      if (input.startsWith("p/")) {
+        break;
+      }
       if(bareMode) {
         writeLines(["type 'help'", "<br>"])
         break;
