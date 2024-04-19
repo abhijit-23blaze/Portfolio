@@ -38,6 +38,8 @@ const createProject = () : string[] => {
     projects.push("<br>");
     projects.push("<br>");
 
+
+    
     string = '';
     
     });
