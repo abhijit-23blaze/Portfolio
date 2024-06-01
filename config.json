@@ -138,7 +138,7 @@
       [
         
         "insiiits",
-        "Immersive website, hosting the official college newsletter of IIIT sricity",
+        "Official newsletter of IIIT Sri City",
         "[open source]",
         "[version 2 released]",
         "Project description long1",
@@ -160,7 +160,7 @@
       [
         
         "portfolio",
-        "Terminal style website based on vite and tyescript for hosting Portfolio",
+        "Terminal style Portfolio website",
         "[close source]",
         "[completed]",
         "Project description long1",
@@ -186,7 +186,7 @@
       [
         
         "harvesthub",
-        "App for farmers to rent out high tech equipment affordably",
+        "App for farmers to rent out equipment affordably",
         "[open source]",
         "[made for App-a-thon IIITS]",
         "Project description long1",
@@ -208,10 +208,10 @@
       [
         
         "sems",
-        "App inteface for SEMS (Socket Electricity Management System) :an innovative way to intelligently control electric components remotely and save Electricity",
+        "App interface for SEMS project",
         "[close source]",
         "[made for ICDCIT (kiit)]",
-        "Project description long1",
+        "App inteface for SEMS (Socket Electricity Management System) :an innovative way to intelligently control electric components remotely and save Electricity",
         "Project description long2",
         "Project description long3",
         "Project description long4",
@@ -230,7 +230,7 @@
       [
         
         "komet",
-        "A travel guiding app for Heritage places to promote hiking culture and create jobs for the local people",
+        "A travel App for SIH",
         "[open source]",
         "[made for SIH 23 (incomplete)]",
         "Project description long2",
@@ -252,7 +252,7 @@
       [
         
         "vimarsh23",
-        "An AI powered app to help the police authority with invesigation of criminal cases",
+        "AI powered Investigation App for laws",
         "[open source]",
         "[made for vimarsh23 (incomplete)]",
         "Project description long1",
@@ -279,7 +279,7 @@
       [
         
         "memesaber",
-        "A fun vr game where you fight off against popular memes who are after you and your time by slicing them with an ancient katana in the middle of Japan",
+        "VR game for gamejam'23",
         "[close source]",
         "[early beta released on quest-store and sidequest]",
         "Project description long1",
@@ -301,7 +301,7 @@
       [
         
         "ncerteducation",
-        "A VR game that immersively teaches student abut EM waves and AC current through various experiments in VR ",
+        "VR NCERT practicals application",
         "[close source]",
         "[completed]",
         "Project description long1",
@@ -327,7 +327,7 @@
       [
         
         "ctf",
-        "An ellaborate CTF quest that is hidden right inside of this website",
+        "A ctf hidden in this website",
         "[close source]",
         "[completed]",
         "Project description long1",
@@ -353,7 +353,7 @@
       [
         
         "flightcontroller",
-        "A flight controller for a drone coded on an esp32 with mpu6065 for gyroscope",
+        "flight-controller using esp32 and ADXL345",
         "[open source]",
         "[made for TechTales IIITS]",
         "Project description long1",
