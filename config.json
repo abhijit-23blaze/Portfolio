@@ -42,6 +42,18 @@
   "aboutSkills1": "Check out my projects by typing ",
   "achievements":{
     "big" : [
+      [
+        "Hack4bioheritage :Winner",
+        "May '24",
+        "Greensphere @IGDTUW delhi",
+        "useful link 1",
+        "useful link 2",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5"
+      ],
 
     [
       "ICDCIT'24 :1st runnerup",
@@ -80,7 +92,7 @@
       "Project description long5"
     ],
     [
-      "Techfrontier :rank 4",
+      "Techfrontier :Rank 4",
       "Mar '24",
       "Edusynch",
       "useful link 1",
@@ -185,8 +197,30 @@
     "flutterdev": [
       [
         
+        "biobounty",
+        "App for farmer to rentout equipment affordably",
+        "[open source]",
+        "[made for App-a-thon IIITS]",
+        "Project description long1",
+        "Project description long2",
+        "Project description long3",
+        "Project description long4",
+        "Project description long5",
+        "tech stack",
+        "time ?",
+        "HarvestHub",
+        
+        "img 1",
+        "img 2",
+        "useful link 1",
+        "useful link 2",
+        "useful link 3"
+        
+      ],
+      [
+        
         "harvesthub",
-        "App for farmers to rent out equipment affordably",
+        "App for farmer to rentout equipment affordably",
         "[open source]",
         "[made for App-a-thon IIITS]",
         "Project description long1",
@@ -252,7 +286,7 @@
       [
         
         "vimarsh23",
-        "AI powered Investigation App for laws",
+        "AI powered Investigation App for law",
         "[open source]",
         "[made for vimarsh23 (incomplete)]",
         "Project description long1",
