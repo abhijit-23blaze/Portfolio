@@ -32,9 +32,18 @@ const createProject = () : string[] => {
     projects.push(ele[7]);
     projects.push(ele[8]);
     projects.push(ele[9]);
+    projects.push(ele[10]);
     projects.push("<br>");
-    projects.push(ele[3]);
+    projects.push(ele[11]);
+    projects.push(ele[12]);
+    projects.push(ele[13]);
+    projects.push("<br>");
+    projects.push("Linkedin post: ");
+    projects.push("<a target='_blank' href='${command.a}'>${command.social.github}</a>");
+    projects.push("<br>");
     projects.push(ele[4]);
+    projects.push(ele[14]);
+    
     projects.push("<br>");
     projects.push("<br>");
 
