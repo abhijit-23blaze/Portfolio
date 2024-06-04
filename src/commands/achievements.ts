@@ -39,10 +39,14 @@ const createProject = () : string[] => {
     projects.push(ele[13]);
     projects.push("<br>");
     projects.push("Linkedin post: ");
-    projects.push("<a target='_blank' href='${command.a}'>${command.social.github}</a>");
+    let pink = `<a href = "${ele[3]}"> ${ele[3]} </a>`
+    projects.push(pink);
     projects.push("<br>");
-    projects.push(ele[4]);
-    projects.push(ele[14]);
+
+    let pink1 = `<a href = "${ele[4]}"> ${ele[4]} </a>`
+    projects.push(pink1);
+    let pink2 = `<a href = "${ele[14]}"> ${ele[14]} </a>`
+    projects.push(pink2);
     
     
     projects.push("<br>");
