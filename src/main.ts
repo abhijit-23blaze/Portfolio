@@ -248,7 +248,7 @@ function commandHandler(input : string) {
         i ++ ;
       }
     }
-    if (i >= 10) {
+    if (i >= 100) {
       writeLines(DEFAULT);
 
       i=0;
@@ -399,6 +399,9 @@ function commandHandler(input : string) {
         PASSWORD_INPUT.focus();
       }, 100);
 
+      break;
+    case 'p/insiiits':
+      
       break;
     case 'ls':
       if(bareMode) {
